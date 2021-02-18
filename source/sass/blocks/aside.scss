@@ -1,0 +1,24 @@
+.aside {
+  margin-top: -75px;
+  width: 321px;
+  flex-shrink: 0;
+  margin-right: 200px;
+
+  @include mobile {
+    margin: 0;
+  }
+}
+
+.aside__heading {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 63px;
+  line-height: 79px;
+  background: linear-gradient(140.05deg, #2EC73D 14.3%, #7C64C2 55.45%, #B31DB6 92.06%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include mobile {
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,40 @@
+.owl-carousel {
+  .owl-dots {
+    display: flex;
+    justify-content: center;
+  }
+
+  .owl-dot.owl-dot {
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: relative;
+
+  &.active::before,
+  &:active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    background: #C4C4C4;
+    border-radius: 50%;
+  }
+
+  @include hover {
+    &:hover,
+    &:focus {
+      border: 1px solid #b31db6;
+    }
+  }
+  }
+
+  .owl-dot.owl-dot:not(:last-child) {
+    margin-right: 25px;
+  }
+}

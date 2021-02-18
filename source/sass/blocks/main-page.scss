@@ -1,0 +1,16 @@
+.main-page {
+  @include content;
+
+  @include mobile-content;
+}
+
+.main-page__wrap {
+  display: flex;
+
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+

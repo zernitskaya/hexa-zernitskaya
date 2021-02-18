@@ -1,0 +1,179 @@
+.header-page__link--magnificent {
+  color: #940b97
+}
+
+.tabs__link--magnificent {
+  color: #000;
+  background: #fff;
+  box-shadow: 0px 3px 14px #00000012;
+
+  &::after {
+    opacity: 1;
+  }
+}
+
+.about__content--magnificent {
+  display: block;
+}
+
+.magnificent:target {
+  & ~ .header-page {
+    .header-page__link {
+      color: #000;
+    }
+
+    .header-page__link--magnificent {
+      color: #940b97
+    }
+  }
+
+  & ~ .main-page {
+    .tabs__link {
+      color: #858a8a;
+      box-shadow: none;
+
+      &::after {
+        opacity: 0;
+      }
+    }
+
+    .tabs__link--magnificent {
+      color: #000;
+      background: #fff;
+      box-shadow: 0px 3px 14px #00000012;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+
+
+  & ~ .main-page {
+    .about__content {
+      display: none;
+    }
+
+    .about__content--magnificent {
+      display: block;
+    }
+  }
+
+  & ~ .main-page {
+    .title__headin {
+      display: none;
+    }
+
+    // .title__headin--magnificent {
+    //   display: block;
+    // }
+  }
+}
+
+.unrivalled:target {
+  & ~ .header-page {
+    .header-page__link {
+      color: #000;
+    }
+
+    .header-page__link--unrivalled {
+      color: #940b97
+    }
+  }
+
+  & ~ .main-page {
+    .tabs__link {
+      color: #858a8a;
+      box-shadow: none;
+
+      &::after {
+        opacity: 0;
+      }
+    }
+
+    .tabs__link--unrivalled {
+      color: #000;
+      background: #fff;
+      box-shadow: 0px 3px 14px #00000012;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+
+  & ~ .main-page {
+    .about__content {
+      display: none;
+    }
+
+    .about__content--unrivalled {
+      display: block;
+    }
+  }
+
+  & ~ .main-page {
+    .title__headin {
+      display: none;
+    }
+
+    // .title__headin--unrivalled {
+    //   display: block;
+    // }
+  }
+}
+
+.inimitable:target {
+  & ~ .header-page {
+    .header-page__link {
+      color: #000;
+    }
+
+    .header-page__link--inimitable {
+      color: #940b97
+    }
+  }
+
+  & ~ .main-page {
+    .tabs__link {
+      color: #858a8a;
+      box-shadow: none;
+
+      &::after {
+        opacity: 0;
+      }
+    }
+
+    .tabs__link--inimitable {
+      color: #000;
+      background: #fff;
+      box-shadow: 0px 3px 14px #00000012;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+
+  & ~ .main-page {
+    .about__content {
+      display: none;
+    }
+
+    .about__content--inimitable {
+      display: block;
+    }
+  }
+
+  & ~ .main-page {
+    .title__headin {
+      display: none;
+    }
+
+    // .title__headin--inimitable {
+    //   display: block;
+    // }
+  }
+}
+
+

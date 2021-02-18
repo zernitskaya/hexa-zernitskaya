@@ -1,0 +1,12 @@
+.title__heading {
+  color: #f1f1f1;
+  font-weight: 900;
+  font-size: 191px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+
+
+  @include mobile {
+    display: none;
+  }
+}
