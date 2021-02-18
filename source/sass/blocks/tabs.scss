@@ -54,3 +54,9 @@
     display: block;
   }
 }
+
+.tabs__btn-item {
+  @include mobile {
+    display: none;
+  }
+}
